@@ -1,0 +1,7 @@
+#Sat Feb 27 06:40:27 BDT 2021
+base.0=C\:\\Users\\User\\Desktop\\SPL-2.2\\Working\\Perfect copy\\Visit_Bangladesh - 1\\Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\User\\Desktop\\SPL-2.2\\Working\\Perfect copy\\Visit_Bangladesh - 1\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
