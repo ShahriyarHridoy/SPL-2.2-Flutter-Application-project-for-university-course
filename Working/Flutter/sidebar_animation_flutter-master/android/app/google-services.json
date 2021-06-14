@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "191908623280",
+    "project_id": "visit-bangladesh-1ecbb",
+    "storage_bucket": "visit-bangladesh-1ecbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191908623280:android:34855de908a80aa1879c75",
+        "android_client_info": {
+          "package_name": "com.example.visit_bangladesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191908623280-7c2ocq28p75mj5u940acsb4o976hfu3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.visit_bangladesh",
+            "certificate_hash": "2d33e082aae2bece0d4c017059ca724c0686c0aa"
+          }
+        },
+        {
+          "client_id": "191908623280-4g8tsic2k6qjjpu0nk3qi5k8kb8r14gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjtp8SdF26GV8BMq-GmrsK4T7LII-eR0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191908623280-4g8tsic2k6qjjpu0nk3qi5k8kb8r14gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
