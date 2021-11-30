@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">191908623280-4g8tsic2k6qjjpu0nk3qi5k8kb8r14gq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">191908623280</string>
+    <string name="google_api_key" translatable="false">AIzaSyCjtp8SdF26GV8BMq-GmrsK4T7LII-eR0w</string>
+    <string name="google_app_id" translatable="false">1:191908623280:android:34855de908a80aa1879c75</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCjtp8SdF26GV8BMq-GmrsK4T7LII-eR0w</string>
+    <string name="google_storage_bucket" translatable="false">visit-bangladesh-1ecbb.appspot.com</string>
+    <string name="project_id" translatable="false">visit-bangladesh-1ecbb</string>
+</resources>
