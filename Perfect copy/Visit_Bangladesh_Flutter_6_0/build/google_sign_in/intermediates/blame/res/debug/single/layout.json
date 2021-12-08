@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\27fc305197b4644fc411acd72870ae26\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\27fc305197b4644fc411acd72870ae26\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\27fc305197b4644fc411acd72870ae26\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\27fc305197b4644fc411acd72870ae26\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\27fc305197b4644fc411acd72870ae26\\core-1.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\27fc305197b4644fc411acd72870ae26\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Github SPL_2.2 Repo\\Working\\Flutter\\Visit_Bangladesh_Flutter_2\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43530fe1fc5dc395a6b5913b86a7bacb\\media-1.0.0\\res\\layout\\notification_template_media.xml"
+    }
+]

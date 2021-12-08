@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "com.benzneststudios.flutter_rounded_progress_bar",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "flutter_rounded_progress_bar-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.benzneststudios.flutter_rounded_progress_bar",
+        "split": ""
+      }
+    }
+  ]
+}

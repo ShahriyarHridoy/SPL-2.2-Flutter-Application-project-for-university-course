@@ -1,0 +1,50 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=emulator-5554 --start-paused --dart-define=flutter.inspector.structuredErrors=true lib\main.dart
+
+## exception
+
+SentinelException: [Sentinel kind: Collected, valueAsString: <collected>] from getIsolate()
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 2.2.0-10.2.pre, on Microsoft Windows [Version 10.0.19042.985], locale en-US)
+    • Flutter version 2.2.0-10.2.pre at C:\flutter
+    • Framework revision b5017bf8de (4 weeks ago), 2021-04-28 17:09:53 -0700
+    • Engine revision 91ed51e05c
+    • Dart version 2.13.0 (build 2.13.0-211.13.beta)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\Users\User\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 51.0.1
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] VS Code (version 1.56.2)
+    • VS Code at C:\Users\User\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.16.0
+
+[✓] Connected device (3 available)
+    • AOSP on IA Emulator (mobile) • emulator-5554 • android-x86    • Android 9 (API 28) (emulator)
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 90.0.4430.93
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 90.0.818.66
+
+• No issues found!
+```
