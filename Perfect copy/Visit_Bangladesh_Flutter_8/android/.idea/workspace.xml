@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f338f659-a1b9-4377-8779-d4b20c7fabb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Multi-Level-Dependent-Dropdown-master/lib/Drop_Down.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../orilla_fresca_app-master/android/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FlutterTravel-master/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../FlutterTravel-master/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/account/account_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/cupertino_home_scaffold.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/entries/daily_jobs_details.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/entries/entries_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/entries/entries_list_tile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/entries/entries_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/entries/entry_job.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/home_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/job_entries/entry_list_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/job_entries/entry_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/job_entries/format.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/job_entries/job_entries_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/jobs/edit_job_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/jobs/empty_content.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/jobs/job_list_tile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/jobs/jobs_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/jobs/list_items_builder.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/models/entry.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/models/job.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/home/tab_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/landing_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_change_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_form_bloc_based.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_form_change_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_form_stateful.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/email_sign_in_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/sign_in_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/sign_in_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/sign_in_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/social_sign_in_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/app/sign_in/validators.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/avatar.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/custom_raised_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/date_time_picker.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/form_submit_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/input_dropdown.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/show_alert_dialog.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/common_widgets/show_exception_alert_dialog.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/services/api_path.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/services/auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/services/database.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter/lib/services/firestore_service.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/account/account_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/cupertino_home_scaffold.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/entries/daily_jobs_details.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/entries/entries_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/entries/entries_list_tile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/entries/entries_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/entries/entry_job.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/home_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/job_entries/entry_list_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/job_entries/entry_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/job_entries/format.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/job_entries/job_entries_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/jobs/edit_job_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/jobs/empty_content.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/jobs/job_list_tile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/jobs/jobs_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/jobs/list_items_builder.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/models/entry.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/models/job.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/home/tab_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/landing_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_change_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_form_bloc_based.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_form_change_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_form_stateful.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/email_sign_in_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/sign_in_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/sign_in_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/sign_in_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/social_sign_in_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/app/sign_in/validators.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/avatar.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/custom_raised_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/date_time_picker.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/form_submit_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/input_dropdown.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/show_alert_dialog.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/common_widgets/show_exception_alert_dialog.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/services/api_path.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/services/auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/services/database.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_1/lib/services/firestore_service.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_change_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_form_bloc_based.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_form_change_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_form_stateful.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/email_sign_in_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/sign_in_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/sign_in_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/authentication/sign_in/validators.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/common_widgets/form_submit_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/common_widgets/platform_alert_dialog.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/common_widgets/platform_exception_alert_dialog.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visit_Bangladesh_Flutter_2/lib/common_widgets/platform_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase_auth_demo_flutter-master/ios/Flutter/Flutter.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/kotlin/com/example/sidebar_animation/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/assets/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/assets/images/bell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/assets/images/illustration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/assets/images/mountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/assets/images/pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/assets/sidebar_experiment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/bloc.navigation_bloc/navigation_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/pages/homepage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/pages/logoutpage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/pages/myaccountspage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/pages/myorderspage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/sidebar/menu_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/sidebar/sidebar.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/sidebar/sidebar_layout.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/all_side_bar/sidebar/sidebar_menu.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/authentication/landing_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/authentication/sign_in/sign_in_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/authentication/sign_in/social_sign_in_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/common_widgets/custom_raised_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sidebar_animation_flutter-master/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../time_tracker_flutter_course/android/app/src/google-services.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_Shahriyar_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1t8xY3fPKAlbkxdwRn4tv0YxeNt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f338f659-a1b9-4377-8779-d4b20c7fabb5" name="Default Changelist" comment="" />
+      <created>1622164561676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622164561676</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622719044908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622719044908" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1629809705549">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1629809705549" />
+  </component>
+</project>
