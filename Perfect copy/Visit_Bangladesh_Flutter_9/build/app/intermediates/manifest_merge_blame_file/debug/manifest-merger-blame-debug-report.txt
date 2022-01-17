@@ -1,0 +1,497 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.visit_bangladesh"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:9:5-67
+14-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:10:5-79
+15-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:11:5-81
+16-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:12:5-76
+17-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:12:22-74
+18
+19    <queries>
+19-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:13:5-26:15
+20        <intent>
+20-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:14:9-17:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:13-65
+21-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:21-62
+22
+23            <data android:scheme="https" />
+23-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+23-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:19-41
+24        </intent>
+25        <intent>
+25-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:14:9-17:18
+26            <action android:name="android.intent.action.DIAL" />
+27
+28            <data android:scheme="tel" />
+28-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+28-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:19-41
+29        </intent>
+30        <intent>
+30-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:14:9-17:18
+31            <action android:name="android.intent.action.SEND" />
+32
+33            <data android:mimeType="*/*" />
+33-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+37-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\efa58e83a4103e867353e41d85c61e08\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+38-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\efa58e83a4103e867353e41d85c61e08\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+39
+40    <uses-feature
+40-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\28645371b729f0578e04a3eec4321a0d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+41        android:glEsVersion="0x00020000"
+41-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\28645371b729f0578e04a3eec4321a0d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+42        android:required="true" />
+42-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\28645371b729f0578e04a3eec4321a0d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+43
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+44-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+45
+46    <application
+46-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:28:5-74:19
+47        android:name="io.flutter.app.FlutterApplication"
+47-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:29:9-57
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\27fc305197b4644fc411acd72870ae26\core-1.1.0\AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:31:9-43
+51        android:label="visit_bangladesh"
+51-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:30:9-41
+52        android:supportsRtl="true" >
+52-->[com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\37e8622c1b26f8891b33455816421c1f\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:28:18-44
+53        <meta-data
+53-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:33:9-34:70
+54            android:name="com.google.android.geo.API_KEY"
+54-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:33:20-65
+55            android:value="AIzaSyCD7EdMsUf4lDpmMtW7blwwLcolLkwnR-0" />
+55-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:34:13-68
+56
+57        <activity
+57-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:36:9-54:20
+58            android:name="com.example.visit_bangladesh.MainActivity"
+58-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:37:13-41
+59            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+59-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:40:13-163
+60            android:hardwareAccelerated="true"
+60-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:41:13-47
+61            android:launchMode="singleTop"
+61-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:38:13-43
+62            android:theme="@style/LaunchTheme"
+62-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:39:13-47
+63            android:windowSoftInputMode="adjustResize" >
+63-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:42:13-55
+64
+65            <!--
+66                 This keeps the window background of the activity showing
+67                 until Flutter renders its first frame. It can be removed if
+68                 there is no splash screen (such as the default splash screen
+69                 defined in @style/LaunchTheme).
+70            -->
+71            <meta-data
+71-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:47:13-49:40
+72                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+72-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:48:17-82
+73                android:value="true" />
+73-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:49:17-37
+74
+75            <intent-filter>
+75-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:50:13-53:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:51:17-68
+76-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:51:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:52:17-76
+78-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:52:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <meta-data
+82-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:56:9-57:54
+83            android:name="com.facebook.sdk.ApplicationId"
+83-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:56:20-65
+84            android:value="@string/facebook_app_id" />
+84-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:57:13-52
+85
+86        <activity
+86-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:59:9-62:48
+87            android:name="com.facebook.FacebookActivity"
+87-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:59:19-63
+88            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+88-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:60:13-113
+89            android:label="@string/app_name"
+89-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:62:13-45
+90            android:theme="@style/com_facebook_activity_theme" />
+90-->[com.facebook.android:facebook-common:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3b1a4024d7771ba758a73aa378b48cf1\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+91        <activity
+91-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:63:9-72:20
+92            android:name="com.facebook.CustomTabActivity"
+92-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:64:13-58
+93            android:exported="true" >
+93-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:65:13-36
+94            <intent-filter>
+94-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:66:13-71:29
+95                <action android:name="android.intent.action.VIEW" />
+95-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:13-65
+95-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:21-62
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:17-76
+97-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:17-78
+98-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:27-75
+99
+100                <data android:scheme="@string/fb_login_protocol_scheme" />
+100-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+100-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:19-41
+101            </intent-filter>
+102            <intent-filter>
+102-->[com.facebook.android:facebook-common:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3b1a4024d7771ba758a73aa378b48cf1\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:13-65
+103-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:21-62
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:17-76
+105-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:17-78
+106-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:27-75
+107
+108                <data
+108-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+109                    android:host="cct.com.example.visit_bangladesh"
+110                    android:scheme="fbconnect" />
+110-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:19-41
+111            </intent-filter>
+112        </activity>
+113
+114        <service
+114-->[:firebase_storage] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[:firebase_storage] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+118            <meta-data
+118-->[:firebase_storage] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+119-->[:firebase_storage] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_storage] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[:cloud_firestore] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+122-->[:cloud_firestore] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:cloud_firestore] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+124            <meta-data
+124-->[:firebase_auth] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+125                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+125-->[:firebase_auth] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:firebase_auth] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+127            <meta-data
+127-->[:firebase_core] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+128                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+128-->[:firebase_core] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[:firebase_core] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+131                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\871841213ccbd91a0a6be027cec4ee24\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+134                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+134-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\871841213ccbd91a0a6be027cec4ee24\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\871841213ccbd91a0a6be027cec4ee24\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7a0ec9e9f8acf9d14d9544fa6bf3bce4\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+137                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+137-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7a0ec9e9f8acf9d14d9544fa6bf3bce4\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7a0ec9e9f8acf9d14d9544fa6bf3bce4\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+139            <meta-data
+139-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\efa58e83a4103e867353e41d85c61e08\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+140                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+140-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\efa58e83a4103e867353e41d85c61e08\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\efa58e83a4103e867353e41d85c61e08\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\68967b8669510a828181b31966bc105d\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+143-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\68967b8669510a828181b31966bc105d\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\68967b8669510a828181b31966bc105d\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+145        </service>
+146
+147        <provider
+147-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+148            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+148-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+149            android:authorities="com.example.visit_bangladesh.flutter.image_provider"
+149-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+150            android:exported="false"
+150-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+151            android:grantUriPermissions="true" >
+151-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+152            <meta-data
+152-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+153                android:name="android.support.FILE_PROVIDER_PATHS"
+153-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+154                android:resource="@xml/flutter_image_picker_file_paths" />
+154-->[:image_picker] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+155        </provider>
+156
+157        <activity
+157-->[:url_launcher] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+158            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+158-->[:url_launcher] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+159            android:exported="false"
+159-->[:url_launcher] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+160            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+160-->[:url_launcher] E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+161        <activity
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+162            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+163            android:excludeFromRecents="true"
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+164            android:exported="true"
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+165            android:launchMode="singleTask"
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+167            <intent-filter>
+167-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+168                <action android:name="android.intent.action.VIEW" />
+168-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:13-65
+168-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:21-62
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:17-76
+170-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:27-73
+171                <category android:name="android.intent.category.BROWSABLE" />
+171-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:17-78
+171-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:27-75
+172
+173                <data
+173-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+174                    android:host="firebase.auth"
+175                    android:path="/"
+176                    android:scheme="genericidp" />
+176-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:19-41
+177            </intent-filter>
+178        </activity>
+179        <activity
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+180            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+181            android:excludeFromRecents="true"
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+182            android:exported="true"
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+183            android:launchMode="singleTask"
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+184-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+185            <intent-filter>
+185-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:13-65
+186-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:15:21-62
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:17-76
+188-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:17-78
+189-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:69:27-75
+190
+191                <data
+191-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:13-44
+192                    android:host="firebase.auth"
+193                    android:path="/"
+194                    android:scheme="recaptcha" />
+194-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:16:19-41
+195            </intent-filter>
+196        </activity>
+197
+198        <service
+198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+199            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+200            android:enabled="true"
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+201            android:exported="false" >
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+202            <intent-filter>
+202-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+203                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+203-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+203-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8105459ab16ad79893d5ee40a035d6a0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:17-76
+205-->E:\Github SPL_2.2 Repo\Perfect copy\Visit_Bangladesh_Flutter_9\android\app\src\main\AndroidManifest.xml:68:27-73
+206            </intent-filter>
+207        </service>
+208
+209        <activity
+209-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+210            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+210-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+211            android:excludeFromRecents="true"
+211-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+214        <!--
+215            Service handling Google Sign-In user revocation. For apps that do not integrate with
+216            Google Sign-In, this service will never be started.
+217        -->
+218        <service
+218-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+219            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+219-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+220            android:exported="true"
+220-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+221            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+221-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+222            android:visibleToInstantApps="true" />
+222-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3c3bd48858f60dd66c700d4f7004fa\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+223
+224        <provider
+224-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+225            android:name="com.google.firebase.provider.FirebaseInitProvider"
+225-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+226            android:authorities="com.example.visit_bangladesh.firebaseinitprovider"
+226-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+227            android:directBootAware="true"
+227-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+228            android:exported="false"
+228-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+229            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+229-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf7e87fc0d7bd5f19114f9e515a9d664\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+230        <uses-library
+230-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\28645371b729f0578e04a3eec4321a0d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+231            android:name="org.apache.http.legacy"
+231-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\28645371b729f0578e04a3eec4321a0d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+232            android:required="false" />
+232-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\28645371b729f0578e04a3eec4321a0d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+233
+234        <activity
+234-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d3c8ac00686cb846864d518a83085299\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+235            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+235-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d3c8ac00686cb846864d518a83085299\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+236            android:exported="false"
+236-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d3c8ac00686cb846864d518a83085299\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d3c8ac00686cb846864d518a83085299\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+238
+239        <receiver
+239-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+240            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+240-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+241            android:enabled="true"
+241-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+242            android:exported="false" >
+242-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+243        </receiver>
+244
+245        <service
+245-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+246            android:name="com.google.android.gms.measurement.AppMeasurementService"
+246-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+247            android:enabled="true"
+247-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+248            android:exported="false" />
+248-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+249        <service
+249-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+250            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+250-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+251            android:enabled="true"
+251-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+252            android:exported="false"
+252-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+253            android:permission="android.permission.BIND_JOB_SERVICE" />
+253-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\07939b6948362d361aa132e3c11caeca\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+254
+255        <meta-data
+255-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1eab4b03cf85d828fa2356de5b6da178\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+256            android:name="com.google.android.gms.version"
+256-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1eab4b03cf85d828fa2356de5b6da178\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+257            android:value="@integer/google_play_services_version" />
+257-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1eab4b03cf85d828fa2356de5b6da178\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+258
+259        <activity android:name="com.facebook.CustomTabMainActivity" />
+259-->[com.facebook.android:facebook-common:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3b1a4024d7771ba758a73aa378b48cf1\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+259-->[com.facebook.android:facebook-common:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3b1a4024d7771ba758a73aa378b48cf1\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+260        <!--
+261         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+262         with the application context. This config is merged in with the host app's manifest,
+263         but there can only be one provider with the same authority activated at any given
+264         point; so if the end user has two or more different apps that use Facebook SDK, only the
+265         first one will be able to use the provider. To work around this problem, we use the
+266         following placeholder in the authority to identify each host application as if it was
+267         a completely different provider.
+268        -->
+269        <provider
+269-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+270            android:name="com.facebook.internal.FacebookInitProvider"
+270-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+271            android:authorities="com.example.visit_bangladesh.FacebookInitProvider"
+271-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+272            android:exported="false" />
+272-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+273
+274        <receiver
+274-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+275            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+275-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+276            android:exported="false" >
+276-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+277            <intent-filter>
+277-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+278                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+278-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+278-->[com.facebook.android:facebook-core:5.15.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9916c74c6d0d68abdf531fffaf35ac10\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+279            </intent-filter>
+280        </receiver>
+281    </application>
+282
+283</manifest>
