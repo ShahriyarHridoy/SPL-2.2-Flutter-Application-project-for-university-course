@@ -1,5 +1,8 @@
 # Visit Bangladesh
+This project is a tourist guide app named as “VISIT BANGLADESH” app can be used tovisit and know about the various tourist of places of Bangladesh. The project “Visit Bangladesh” is a tour guide mobile application developed to help domestic and foreign tourists in Bangladesh. With the developing world, people want to get everything to their fingertips. Various tours and travel agencies have defined expensive package which most of people can’t afford. Sometimes, they might not have valid information and keep tourists in vain. Lack of proper information about certain places may results in problem like lack of transportation facilities, lodging and fooding, lack of proper tour guide. Loss of time and effort for looking to visit places around you. 
 
+In order to overcome this heck, we came up with the idea to resolve this. An android application where user go for looking nearby places easily. At same place, user get all required details about place without going anywhere on their fingertips. In every sector, digitalization is reaching its peak. Our goal is to provide service to the tourist, on the other hand, promotes the tourist sector as well as uplift the economy of local people and country. 
+With proper user- friendly interface and exciting features like currency, weather report, emergency contacting so on. An app already has some pre updated tourists’ site further can be addedby user related places in their locality. Navigation with google maps and calculating distances to tourist places and can be updated with various route to reach selected destination by various means of transportation.
 
-# Here is the demo video of this App-
+## Here is the demo video of this App-
 https://user-images.githubusercontent.com/35798678/149849500-f3768850-5cad-4d70-a973-3fadfe26f57d.mp4
